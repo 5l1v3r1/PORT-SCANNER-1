@@ -2,10 +2,8 @@ import socket
 from datetime import datetime
 import threading
 
-
 hostname=input("HOSTNAME: ")
 ip=socket.gethostbyname(hostname)
-
 
 t1=datetime.now()
 
